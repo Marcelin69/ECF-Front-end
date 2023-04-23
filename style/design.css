@@ -67,6 +67,52 @@ body {
   border-radius: 50%;
 }
 
+/* Sidebar style ***********************************************/
+.sidebar_menu {
+  cursor: pointer;
+}
+
+/* État ouvert du saidbar */
+.sidebar {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  right: 0;
+  height: 9rem;
+  width: 0px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 1em rgba(125, 125, 125, 0.607);
+  transition: all 100ms;
+  z-index: 2;
+  top: 7rem;
+}
+
+/* État fermé du seidbar */
+.sidebarferme {
+  visibility: visible;
+  width: 300px;
+  transition: all 800ms;
+}
+
+.nav_saide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 1rem;
+}
+
+.nav_saide li {
+  line-height: 2rem;
+  list-style: none;
+}
+
+.nav_saide li a {
+  text-decoration: none;
+  color: black
+}
+
 /* index main  style ***********************************************/
 main {
   margin-top: 1rem;
