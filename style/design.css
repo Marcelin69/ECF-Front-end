@@ -67,3 +67,293 @@ body {
   border-radius: 50%;
 }
 
+/* index main  style ***********************************************/
+main {
+  margin-top: 1rem;
+
+
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+}
+
+.VideoMain {
+  width: 49%;
+  height: 20rem;
+
+}
+
+.slidersez {
+  width: 49%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item p {
+  font-size: 21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0.4em;
+}
+
+.carousel-item-1 {
+  background: url('../img/1.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 20rem;
+}
+
+.carousel-item-2 {
+  background: url('../img/11.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 20rem;
+}
+
+.carousel-item-3 {
+  background: url('../img/10.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 20rem;
+}
+
+.slidersez img {
+  margin-left: 7rem;
+  height: 15rem;
+
+  width: 15rem;
+
+}
+
+.article {
+  text-align: center;
+}
+
+.sous_article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.carte {
+  width: 20%;
+  border: none;
+  text-align: left;
+
+
+}
+.carte:hover {
+  
+  box-shadow: 1px 1px 2px 5px  rgb(227, 227, 227);
+
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.btnunshow {
+  display: none;
+}
+
+.btnshowas {
+  display: block;
+}
+
+.article1 {
+  position: relative;
+  background: url('../img/1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: contain;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article2 {
+  position: relative;
+  background: url('../img/2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article3 {
+  position: relative;
+  background: url('../img/3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article4 {
+  position: relative;
+  background: url('../img/4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article5 {
+  position: relative;
+  background: url('../img/5.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article6 {
+  position: relative;
+  background: url('../img/6.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article7 {
+  position: relative;
+  background: url('../img/7.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article8 {
+  position: relative;
+  background: url('../img/8.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article9 {
+  position: relative;
+  background: url('../img/9.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article10 {
+  position: relative;
+  background: url('../img/10.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article11 {
+  position: relative;
+  background: url('../img/11.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.article2 {
+  position: relative;
+  background: url('../img/7.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center;
+  height: 9rem;
+  margin: 0px;
+}
+
+.carte p {
+  margin: 0px;
+
+}
+
+.carte .prix {
+  bottom: 1.5rem;
+  left: 14rem;
+  color: rgb(7, 35, 251);
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 20%;
+
+}
+
+.contact {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+textarea {
+  width: 35rem;
+  border: 0.2rem solid;
+  margin: 0.5rem 0px 0.5rem 0px;
+}
+
+form label {
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+}
+
+form button {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
