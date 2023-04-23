@@ -7,3 +7,63 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+/* navbar style ***********************************************/
+.navheader {
+  margin-bottom: 8rem;
+}
+
+.navba {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  top: 0px;
+
+}
+
+.promotion {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0.4rem;
+}
+
+.far {
+  margin-left: 5rem;
+}
+
+.navlink {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E3E3E3;
+  padding: 0.5rem;
+
+}
+
+.link {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 1rem;
+}
+
+.link li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.navlink .logo {
+  width: 20%;
+}
+
+.logo img {
+  width: 59px;
+  height: 59x;
+  border-radius: 50%;
+}
+
