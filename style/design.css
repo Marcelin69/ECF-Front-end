@@ -403,6 +403,45 @@ form button {
   background-color: black;
   color: white;
 }
+
+/* Formullaire d'ajout de produit style ***********************************************/
+#message {
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: red;
+  color: white;
+}
+#mesinfo {
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(242, 160, 205);
+}
+
+.add_article {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add_article h1 {
+  margin-bottom: 1.5rem;
+}
+
+.borde {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: solid #A7A7A7;
+}
+
+.btnadd {
+  padding: 1rem;
+  border: none;
+  font-weight: 900;
+}
+
 /* footer style ***********************************************/
 .ligne {
   color: black;
