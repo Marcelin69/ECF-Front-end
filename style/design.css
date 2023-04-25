@@ -442,6 +442,118 @@ form button {
   font-weight: 900;
 }
 
+
+/* Dettaille produit style ***********************************************/
+.detaille-img {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.detail-img img {
+  width: 260px;
+}
+
+.detail-img {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.prix {
+  font-weight: bolder;
+  color: blue;
+}
+
+.color {
+  font-weight: bolder;
+}
+
+.detail-prod table {
+  width: 28rem;
+  border: 1px solid #A7A7A7;
+  text-align: center;
+}
+
+td {
+  padding: 0.5rem;
+
+  border: 1px solid #A7A7A7;
+
+}
+
+span {
+  font-weight: bolder;
+}
+
+.prod-taille {
+  width: 28rem;
+}
+
+.detail-prod button {
+  background-color: black;
+  color: white;
+  width: 28rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+}
+
+.sous-desc {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.avis {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  gap: 5rem;
+
+}
+
+.sous-avis {
+  text-align: center;
+}
+
+.carousel-inner-1{
+  display: none;
+
+}
+.annonce {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.8rem;
+  margin-top: 4rem;
+
+
+}
+
+.sous-annonce {
+  width: 60%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.sous-annonce button {
+  padding: 1rem;
+  width: 15rem;
+  margin: 5px;
+}
+
 /* footer style ***********************************************/
 .ligne {
   color: black;
