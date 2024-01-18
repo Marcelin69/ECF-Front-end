@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -28,7 +28,7 @@
     <nav class="navba">
       <p class="promotion">Tous nos produits en promotions <i class="fas fa-arrow-right far"></i></p>
       <div class="navlink">
-<!-- les lien du navbars format Ordinateur *********************************************** -->
+
         <span class="logo"><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></span>
         <ul class="link">
           <li><a href="../index.html">ARTICLES</a></li>
@@ -41,7 +41,6 @@
         </svg>
       </div>
     </nav>
-    <!-- les lien du navbars format mobile et tablette******************************* -->
     <div class="sidebar flex flex-center text-large">
       <ul class=" nav_saide flex-justify-space-between text-medium gap-20">
         <li class="nav_item flex flex-center">
@@ -62,60 +61,42 @@
       </ul>
     </div>
   </header>
-  <main>
 
-    <section class="add_article">
-      <h1> AJOUT D'ARTICLE</h1>
-      <p id="mesinfo"></p>
-      <p id="message"></p>
 
-      <form action="" enctype="multipart/form-data" id="mrform" >
-        <div class="sous-avis">
-          <label for="">Image</label>
-          <input class="borde" type="file"  name="" id="file" required>
-        </div>
-        <div class="sous-avis">
-          <label for="">Nom</label>
-          <input class="borde" type="text" id="name" required>
-        </div>
-        <div class="sous-avis">
-          <label for="">Prix</label>
-          <input class="borde" type="number" id="prix" required>
-                </div>
-        <div class="sous-avis">
-          <label for="">Description</label>
-          <textarea class="borde" id="desc" required></textarea>
-        </div>
-        <div>
-          <button type="submit"  class="btnadd">Ajouter mon produit</button>
-        </div>
-      </form>
+  <main class="container">
+    <section class="annonce">
+      <div class="sous-annonce">
+        <p>
+          Vous n'avez pas d'article dans votre panier
+        </p>
+        <a href="../index.html"><button class="btn">Commandez</button></a>
 
+      </div>
     </section>
   </main>
 
-
   <footer class="footba">
     <hr class="ligne">
-     <!-- footer ******************************* -->
-      <div class="footlink container">
-        <span class="footlogo"><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></span>
-        <ul class="footerres">
-          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        </ul>
-        <ul class="linkfooter">
-          <li><a href="../index.html">ARTICLES</a></li>
-          <li><a href="add.html">AJOUT D'ARTICLE</a></li>
-          <li><a href="../index.html">CONTACTEZ-NOUS</a></li>
-          <li><a href="panier.html"><i class="fas fa-shopping-bag"></i></a></li>
-        </ul>
 
-      </div>
-      <p class="footcopy">Marza@Copy2023</p>
+    <div class="footlink container">
+      <span class="footlogo"><a href="../index.html"><img src="../img/logo.png" alt="logo"></a></span>
+      <ul class="footerres">
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+      </ul>
+      <ul class="linkfooter">
+        <li><a href="">ARTICLES</a></li>
+        <li><a href="">AJOUT D'ARTICLE</a></li>
+        <li><a href="">CONTACTEZ-NOUS</a></li>
+        <li><a href=""><i class="fas fa-shopping-bag"></i></a></li>
+      </ul>
+
+    </div>
+    <p class="footcopy">Marza@Copy2023</p>
   </footer>
   <script src="../main/main.js"></script>
+
 </body>
 
 </html>
